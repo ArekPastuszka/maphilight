@@ -330,7 +330,7 @@
 						if(typeof area_options.groupBy == 'string') {
 							area_options.groupBy = [area_options.groupBy];
 						}
-						var el = $(this);
+						var el = $(e.target);
 						$.each(area_options.groupBy, function(index, groupitem){
 							var areas;
 							// two ways groupBy might work; attribute and selector
